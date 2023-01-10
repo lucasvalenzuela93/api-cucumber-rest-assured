@@ -1,0 +1,11 @@
+# IDE
+/.idea
+/.settings
+/.vscode
+.classpath
+.factorypath
+.project
+
+# MVN
+/target
+pom.xml.bak
