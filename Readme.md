@@ -9,10 +9,10 @@ Currently using java 8, cucumber, junit and restassured.
 
 ## Acknowledgements
 
-- Test scenarios are located on src/test/resources/hellocucumber/pet.feature
-- Test steps are located on src/test/java/steps/StepDefinitions.java
-- Pet services are defined on src/main/java/services/PetService.java
-- For json payloads and responses implements pojos, located on src/main/java/pojos
+- Test scenarios are located on [`hellocucumber/pet.feature`](src/test/resources/hellocucumber/pet.feature)
+- Test steps are located on [`steps/StepDefinitions.java`](src/test/java/steps/StepDefinitions.java)
+- Pet services are defined on [`services/PetService.java`](src/main/java/services/PetService.java)
+- For json payloads and responses implements pojos, located on [`pojos`](src/main/java/pojos)
 - Uses the default spec report
 ## Running Tests
 
