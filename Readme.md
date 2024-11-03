@@ -1,25 +1,28 @@
+# Cucumber REST Assured API Tests
 
-# Api Cucumber Rest Assured test
+This repository contains automated tests for the [Petstore API](https://petstore.swagger.io/) based on the 10-Minute Cucumber Tutorial.
 
-Repository for Petstore swagger (Based on 10 Minute Tutorial from Cucumber)
+## Technologies Used
 
-Currently using java 8, cucumber, junit and restassured.
+- Java 8
+- Cucumber
+- JUnit
+- Rest Assured
 
+## Project Structure
 
+- **Test Scenarios**: Located at `src/test/resources/hellocucumber/pet.feature`
+- **Step Definitions**: Implemented in `src/test/java/steps/StepDefinitions.java`
+- **Pet Services**: Defined in `src/main/java/services/PetService.java`
+- **POJOs for JSON Payloads and Responses**: Found in `src/main/java/pojos`
+- **Reports**: Uses the default specification report
 
-## Acknowledgements
+## Getting Started
 
-- Test scenarios are located on [`hellocucumber/pet.feature`](src/test/resources/hellocucumber/pet.feature)
-- Test steps are located on [`steps/StepDefinitions.java`](src/test/java/steps/StepDefinitions.java)
-- Pet services are defined on [`services/PetService.java`](src/main/java/services/PetService.java)
-- For json payloads and responses implements pojos, located on [`pojos`](src/main/java/pojos)
-- Uses the default spec report
-## Running Tests
-
-Make sure to install all dependecies with `mvn install`
-
-To run tests, run the following command:
-
-```bash
-  mvn test
-```
+1. **Install Dependencies**: Run the following command to install all required dependencies:
+   ```bash
+   mvn install
+2. **Run Tests**: Execute the tests using the command:
+   ```bash
+   mvn test
+3. **View Cucumber Reports**: After running the tests, you can view your Cucumber report at: https://reports.cucumber.io/reports/{UUID}
