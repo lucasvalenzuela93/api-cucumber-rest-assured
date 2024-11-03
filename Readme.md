@@ -1,6 +1,6 @@
 # Cucumber REST Assured API Tests
 
-This repository contains automated tests for the [Petstore API](https://petstore.swagger.io/) based on the 10-Minute Cucumber Tutorial.
+This repository contains automated tests for the [Petstore API](https://petstore.swagger.io/) based on the [10-Minute Cucumber Tutorial](https://cucumber.io/docs/guides/10-minute-tutorial/?lang=java).
 
 ## Technologies Used
 
